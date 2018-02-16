@@ -1,0 +1,7 @@
+cijferICT=float(input('Cijfer Geo-ICT? '))
+cijferDATA_R=float(input('Cijver Geo_DATA Regine? '))
+cijferDATA_H=float(input('Cijfer Geo_DATA Hiddo? '))
+cijferPRO=float(input('Cijfer Geo_PRO?'))
+gemiddelde=((cijferPRO+cijferDATA_H+cijferICT+cijferDATA_R)/4)
+beloning=(cijferICT*30+cijferDATA_R*30+cijferDATA_H*30+cijferPRO*30)
+print('Mijn cijfers (gemiddeld een'gemiddelde') leveren een beloning van €' belonging ' op!')
