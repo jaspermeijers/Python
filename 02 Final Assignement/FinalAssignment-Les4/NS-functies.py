@@ -5,7 +5,7 @@ def standaardprijs (afstandKM):
     elif afstandKM <50:
         prijs = afstandKM*80/100
     else:
-        prijs = afstandKM+15*60/100
+        prijs = afstandKM*60/100+15
     return prijs
 
 print(standaardprijs(51))
@@ -16,7 +16,7 @@ def ritprijs(leeftijd, dag, afstandKM):
 
     doordeweeks = ['maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag']
     weekend = ['zaterdag', 'zondag']
-    normale_prijs=standaardprijs(afstandKM)
+    normale_prijs = standaardprijs(afstandKM)
 
     if leeftijd <12 and dag in doordeweeks:
         betaald = normale_prijs/100*70
@@ -28,9 +28,10 @@ def ritprijs(leeftijd, dag, afstandKM):
     elif leeftijd >65 and dag in weekend:
         betaald = normale_prijs/100*65
 
-    elif leeftijd and dag in weekend:
+    elif dag in weekend:
         betaald = normale_prijs/100*60
     else:
-        betaald =normale_prijs
+        betaald = normale_prijs
     return betaald
+
 print(ritprijs(11,'maandag',51))
