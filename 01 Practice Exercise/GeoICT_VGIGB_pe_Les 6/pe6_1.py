@@ -3,4 +3,4 @@ seizoenen = {'12': 'winter', '1':'winter', '2':'winter',
 '6': 'zomer', '7': 'zomer', '8': 'zomer',
 '9': 'herst', '10': 'herst', '11': 'herst' }
 
-print(seizoenen['1'])
+print(seizoenen['6'])

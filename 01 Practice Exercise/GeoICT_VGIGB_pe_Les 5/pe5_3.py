@@ -1,9 +1,9 @@
-kaartnummers=open('pe5_2_kaartnummers', 'r+')
+def Nkrt= ('bestand'):
+    kaartnummers=open('pe5_2_kaartnummers', 'r+')
+    lijst=kaartnummers.readlines()
+    kaartnummers+close=close()
+    for ...
 
-lijst=kaartnummers.readlines()
 
 
-print('Deze file telt ' + lijst.count() + ' regels')
-
-print('Het grootste kaartnummeris: ' nummer ' en dat staat op ' regel 4)
-
+.fromat
